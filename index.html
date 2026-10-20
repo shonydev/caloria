@@ -21,7 +21,7 @@
 </section>
 <section class="columns">
 <article class="panel"><p class="eyebrow" data-i="addMeal">AGREGAR COMIDA</p><h2 data-i="photoTitle">Empieza con una foto</h2><p class="muted" data-i="photoHint">Toma una foto o elige una de tu biblioteca.</p>
-<button class="photo" id="photoButton" type="button"><span id="photoPrompt">＋　Elegir foto</span><img id="preview" alt="" hidden></button><input id="photo" type="file" accept="image/*" capture="environment" hidden>
+<button class="photo" id="photoButton" type="button"><span id="photoPrompt">＋　Elegir foto</span><img id="preview" alt="" hidden></button><input id="photo" type="file" accept="image/*" hidden>
 <button class="primary" id="identify" type="button" data-i="identify">✨ Identificar comida con IA</button><p id="aiStatus" class="muted" role="status" aria-live="polite" data-i="modelNote">La identificación se ejecuta en tu dispositivo. La primera vez descarga un modelo de unos 93 MB.</p><p id="aiResult" class="note" hidden></p>
 <div class="field"><label for="food" data-i="food">Alimento</label><select id="food"></select><p class="note" data-i="foodHint">Elige un alimento de ejemplo y ajusta la porción. La foto es opcional.</p></div>
 <div class="field"><div class="fieldline"><label for="grams" data-i="portion">Porción</label><strong><span id="gramsValue">150</span> g</strong></div><input id="grams" type="range" min="25" max="600" step="5" value="150"><div class="foot"><span>25 g</span><span>600 g</span></div></div>
