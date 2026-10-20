@@ -1,0 +1,12 @@
+{
+  "name": "Caloria — Diario de comidas",
+  "short_name": "Caloria",
+  "description": "Diario de comidas privado, bilingüe y offline.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f2",
+  "theme_color": "#f7f7f2",
+  "icons": []
+}
