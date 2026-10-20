@@ -1,5 +1,8 @@
 # Caloria
 
+> **🚀 Open the app:** https://shonydev.github.io/caloria/  
+> Anyone can use it directly in the browser; no installation is required.
+
 A tiny bilingual (Spanish/English), offline-first food diary PWA. It uses no framework, build step, backend, analytics, or paid API.
 
 ## Included
@@ -19,7 +22,7 @@ The selected image is only previewed; this version does not identify food from a
 
 ## Run and deploy
 
-No build command is required. Serve this directory from a static HTTPS host. For GitHub Pages, open **Settings → Pages**, select **Deploy from a branch**, choose **main** and **/(root)**, then save. After deployment, open the published HTTPS URL and use your browser's Add to Home Screen option.
+No build command is required. Serve this directory from a static HTTPS host. The app is published with GitHub Actions at **https://shonydev.github.io/caloria/**. To redeploy, push changes to `main`; the workflow in `.github/workflows/pages.yml` publishes the static files. Open the HTTPS URL and use your browser's Add to Home Screen option to install it as a PWA.
 
 ## Privacy and limitations
 
